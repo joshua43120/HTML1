@@ -1,0 +1,55 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#tbl1{
+    background-color: pink;
+}
+#tr1{
+    background-color: pink;
+}
+#tr2{
+    background-color: pink; height: 50px;
+}
+#lbl1{
+    background-color: aqua;
+}
+#a1{
+    text-decoration: none;
+}
+#thOne {
+    border: 10px solid gray;
+}
+td{
+    border: 1px solid black;
+}
+.border1 {
+    border: 0px;
+}
+.border2{
+    border: 1px solid black;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+a:link{
+    color: green;
+
+}
+a:visited{
+    color:orange;
+}
+a:hover{
+    color: blueviolet;
+}
+#menu{
+    width:30%; 
+    background-color:lightblue;
+}
+th{
+    border: 3px solid gray;
+    padding: 0px;
+}

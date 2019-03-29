@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/mystyles.css" />
+</head>
+
+<body style="background-color: rgb(90, 168, 221)">
+    <div>
+        <table style="width:13%; background-color:lightblue;">
+            <th><a href="home.html"> Home </a></th>
+            <th><a href="login.html"> Login </a></th>
+        </table>
+    </div>
+    <form action="user.html">
+        <div>
+            <table>
+                <tr id="tr1">
+                    <td>
+                        <label> Username: </label>
+                    </td>
+                    <td>
+                        <input type="text" min="5" max="25" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> Password: </label>
+                    </td>
+                    <td>
+                        <input type="password" min="5" max="13" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> First name: </label>
+                    </td>
+                    <td>
+                        <input type="text" maxlength="25" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> Last name: </label>
+                    </td>
+                    <td>
+                        <input type="text" maxlength="25" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> Address: </label>
+                    </td>
+                    <td>
+                        <input type="text" />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> City: </label>
+                    </td>
+                    <td>
+                        <input type="text" maxlength="20" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> State: </label>
+                    </td>
+                    <td>
+                        <input type="text" maxlength="2" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> Zipcode: </label>
+                    </td>
+                    <td>
+                        <input type="number" maxlength="5" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> Email: </label>
+                    </td>
+                    <td>
+                        <input type="email" required />
+                    </td>
+                </tr>
+                <tr id="tr1">
+                    <td>
+                        <label> DOB: </label>
+                    </td>
+                    <td>
+                        <input type="date" required />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label> Marital Status: </label>
+        <input type="radio" name="Marital Status" value="Single"> Single </input>
+        <input type="radio" name="Marital Status" value="Married"> Married </input>
+        <input type="radio" name="Marital Status" value="Divorced"> Divorced </input>
+        <input type="radio" name="Marital Status" value="Separated"> Separated </input>
+        <br>
+        <br>
+        <label> Profession: </label>
+        <input type="radio" name="Profession" value="Student"> Student </input>
+        <input type="radio" name="Profession" value="Full-time"> Full-time </input>
+        <input type="radio" name="Profession" value="Professional"> Professional </input>
+        <input type="radio" name="Profession" value="Self-employed"> Self-employed </input>
+        <br>
+        <br>
+        <label> Own which of these? </label>
+        <input type="checkbox" name="devices" value="Mobile"> Mobile </input>
+        <input type="checkbox" name="devices" value="tablet"> Tablet </input>
+        <input type="checkbox" name="devices" value="Desktop"> Desktop </input>
+        <input type="checkbox" name="devices" value="Laptop"> Laptop </input>
+        <br>
+        <br>
+        <input type="Submit" />
+        <span>
+            <input type="Reset" />
+        </span>
+    </form>
+</body>
+
+</html>
